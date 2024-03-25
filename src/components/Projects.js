@@ -11,8 +11,8 @@ export const Projects = () => {
             
             <section className="cards">
                
-                <div class="card1">
-                    <div class="card2">
+                <div className="card1">
+                    <div className="card2">
                     </div>
                 </div>
                 
