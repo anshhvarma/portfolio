@@ -1,3 +1,5 @@
+import Project from '../constant/index';
+
 export const Projects = () => {
     return  (
             
@@ -8,12 +10,13 @@ export const Projects = () => {
             </div>
             
             <section className="cards">
+               
                 <div class="card1">
                     <div class="card2">
                     </div>
                 </div>
                 
-            </section>
+            </section>  
 
         </section>
     )

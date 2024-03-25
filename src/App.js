@@ -11,6 +11,7 @@ import { Aim } from "./components/goal";
 
 function App() {
   return (
+    
     <div className="App">
       <NavBar />
       <Banner />
@@ -20,6 +21,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
+    
   );
 }
 

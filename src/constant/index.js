@@ -53,7 +53,7 @@ export const technologies = [
     },
   ];
 
-export const Projects = [
+export const Project = [
     {
       name: "Spotify-Clone",
       description:
