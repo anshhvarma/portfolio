@@ -1,23 +1,105 @@
-import Project from '../constant/index';
-
 export const Projects = () => {
-    return  (
-            
-        <section className="project" id="projects">
-            <div className="skill-bx wow">
-                        <h2>My Work</h2>
-                        <p>Following projects showcase my skills and experience through real world examples of my Work.<br />Each project is briefly described with its link to the code repositories and LIVE demos in it</p>
+    return (
+        <section id="projects" className="project-container container">
+            <div className="division"></div>
+            <div className="content-text">
+                <h2>Projects</h2>
+                <p>Check out some of my personal and paid projects</p>
             </div>
-            
-            <section className="cards">
-               
-                <div className="card1">
-                    <div className="card2">
+
+            <article className="project">
+                {/* <!-- Project 1 --> */}
+                <div className="card">
+                    <div className="project-info">
+                        <div className="project-bio">
+                            <h3>Project One</h3>
+                            <p>React, Redux, SASS</p>
+                        </div>
+
+                        <div className="project-link">
+                            <a href="#" target="_blank"><i className="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i className="fas fa-globe"></i></a>
+                        </div>
                     </div>
                 </div>
-                
-            </section>  
 
+                {/* <!-- Project 2 --> */}
+                <div className="card">
+                    <div className="project-info">
+                        <div className="project-bio">
+                            <h3>Project Two</h3>
+                            <p>React, Redux, SASS</p>
+                        </div>
+
+                        <div className="project-link">
+                            <a href="#" target="_blank"><i className="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i className="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* <!-- Project 3 --> */}
+                <div className="card">
+                    <div className="project-info">
+                        <div className="project-bio">
+                            <h3>Project Three</h3>
+                            <p>React, Redux, SASS</p>
+                        </div>
+
+                        <div className="project-link">
+                            <a href="#" target="_blank"><i className="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i className="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* <!-- Project 4 --> */}
+                <div className="card">
+                    <div className="project-info">
+                        <div className="project-bio">
+                            <h3>Project Four</h3>
+                            <p>React, Redux, SASS</p>
+                        </div>
+
+                        <div className="project-link">
+                            <a href="#" target="_blank"><i className="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i className="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* <!-- Project 5 --> */}
+                <div className="card">
+                    <div className="project-info">
+                        <div className="project-bio">
+                            <h3>Project Five</h3>
+                            <p>React, Redux, SASS</p>
+                        </div>
+
+                        <div className="project-link">
+                            <a href="#" target="_blank"><i className="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i className="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                {/* <!-- Project 6 --> */}
+                <div className="card">
+                    <div className="project-info">
+                        <div className="project-bio">
+                            <h3>Project Six</h3>
+                            <p>React, Redux, SASS</p>
+                        </div>
+
+                        <div className="project-link">
+                            <a href="#" target="_blank"><i className="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i className="fas fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <a href="#" className="btn btn-secondary" target="_blank">See More <i className="fas fa-arrow-right"></i></a>
         </section>
-    )
-}
+    );
+};

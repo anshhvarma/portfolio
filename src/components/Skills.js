@@ -9,7 +9,7 @@ export const Skills = () => {
         <div className="container">
                 <div className="skill-bx wow">
                         <h2>Skills</h2>
-                        <p>I'm a skilled Full-Stack  Developer with experience in Java , and expertise in frameworks such as React, Node.js. I'm a quick learner who can easily collaborate with clients and push myself to fulfill required expectation.</p>
+                        <p>I'm a skilled Full-Stack  Developer with experience in Java , and expertise in frameworks such as React, Nextjs etc. I'm a quick learner who can easily collaborate with clients and push myself to fulfill required expectation.</p>
                     </div>
                     <div className="balls-container" >
                     {

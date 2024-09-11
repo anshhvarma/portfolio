@@ -1,26 +1,20 @@
-
-import './App.css';
+import Home from './pages/home.js';
+import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { NavBar } from "./components/NavBar";
-import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects";
-import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
-import { Aim } from "./components/goal";
 
-function App() {
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { NavBar } from "./components/NavBar.js";
+
+
+const App = () => {
   return (
+    <>
+      <NavBar/>
+        <Home />
     
-    <div className="App">
-      <NavBar />
-      <Banner />
-      <Skills />
-      <Projects />
-      <Aim />
-      <Contact />
-      <Footer />
-    </div>
+    </>
+
     
   );
 }
