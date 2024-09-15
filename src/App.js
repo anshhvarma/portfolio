@@ -10,7 +10,7 @@ const App = () => {
   return (
     <>
       <NavBar/>
-       <Home />
+       <Home/>
     </>
 
     
