@@ -1501,10 +1501,6 @@ video {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-.px-\[8rem\] {
-  padding-left: 8rem;
-  padding-right: 8rem;
-}
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1532,14 +1528,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-.px-\[8r\] {
-  padding-left: 8r;
-  padding-right: 8r;
-}
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
 }
 .pb-2 {
   padding-bottom: 0.5rem;
