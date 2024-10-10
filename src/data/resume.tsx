@@ -136,6 +136,32 @@ export const DATA = {
       image: "/ingenia.png",
       video:"",
     },
+    {
+      title: "SwapIT - An Easy Swap ",
+      href: "https://swap-it-pied.vercel.app",
+      dates: "",
+      active: true,
+      description:
+        "This website lets students from different colleges exchange academic materials like books, notes, and stationery. It helps save money and reduce waste by reusing resources. Students can easily list or request items and connect with others to swap materials.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Node JS",
+        "Mongo DB",
+        "Clerk",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://swap-it-pied.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/swapit.png",
+      video:"",
+    },
   ],
   hackathons: [
 
