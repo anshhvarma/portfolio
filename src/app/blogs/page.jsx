@@ -1,5 +1,5 @@
 import React from 'react'
-import Blogs from '@/modules/Blogs/index.jsx'
+import Blogs from '@/modules/blogs/index'
 
 const page = () => {
   return (
