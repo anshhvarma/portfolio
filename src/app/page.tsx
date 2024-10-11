@@ -13,17 +13,19 @@
 // import { Button } from "@/components/ui/button";
 import React from "react";
 
+import Hackathon from '@/modules/home/index'
 
 
 
 export default function Page() {
   return (
     <section className="md:flex md:flex-col md:items-center md:justify-center min-h-screen">
-  <div className="flex flex-1 items-center justify-center w-full">
+  <div className="flex flex-1 mt-32 mb-32 items-center justify-center w-full">
     <p className="text-[4.5rem] md:text-[7.4rem] font-semibold leading-tight text-left selection:bg-yellow-200">
       Are you prepared to turn your idea into reality within weeks?
     </p>
   </div>
+  <Hackathon />
   
 </section>
 
